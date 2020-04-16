@@ -7,5 +7,6 @@ RUN echo 'deb https://cloud.r-project.org/bin/linux/ubuntu bionic-cran35/' > /et
 RUN apt-get update
 RUN apt-get install -y python3-sklearn idle-python3.6
 RUN apt-get install -y r-recommended
+RUN apt-get install -y octave
 ENTRYPOINT service ssh start && /bin/bash
 
