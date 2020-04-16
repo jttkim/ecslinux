@@ -12,6 +12,7 @@ This image so far provides:
 * Editors: Emacs, Gedit, Vim
 * Ocatve (Open Source Matlab-like system)
 * R
+* Python3 with IDLE
 
 Planned:
 
